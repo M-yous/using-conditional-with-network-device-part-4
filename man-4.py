@@ -34,6 +34,6 @@ for device_ip in devices_list:
     except Exception as e:
         print(f"Failed to connect to {device_ip}. Error: {str(e)}")
 
-    finally:
+    #finally:
         # Disconnect from the device
-        net_connect.disconnect()
+        #net_connect.disconnect()
